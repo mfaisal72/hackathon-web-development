@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(95, 19, 172);
+    font-family: 'Roboto', sans-serif;;
+}
+
+.navbar {
+    background-color: rgb(95, 19, 172);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+.nav-link{
+    color: white !important;
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 40px 40px 40px 0;
+    -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    font-size: 14px;
+    font-weight: 500;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn.btn-primary {
+    background: #1fb6fc !important;
+    border: 1px solid #1fb6fc !important;
+    color: #fff !important;
+}
+
+btn.btn-secondary {
+    background: #bc6ff1 !important;
+    border: 1px solid #bc6ff1 !important;
+    color: #fff !important;
+}
+.btn.btn-secondary:hover {
+    border: 1px solid #bc6ff1;
+    background: transparent;
+    color: #bc6ff1;
+}
+
+.btn.btn-primary:hover {
+    border: 1px solid #bc6ff1;
+    background: #1fb6fc !important;
+    background: transparent;
+    color: #bc6ff1;
+}
+
+.services {
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 0;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+}
+a, button {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #1fb6fc;
+    text-decoration: none;
+}
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+.services .icon span {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #1fb6fc;
+}
+.feature-card {
+    transition: transform 0.3s;
+  }
+  
+  .services:hover {
+    transform: scale(1.05);
+    background-color: #0d6efd;
+  } 
+#features .container{
+    height: 100%
+    width: 100%;
+}
